@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
                 {
                  mSubBtn.setEnabled(false);
                 }else{
-                    Toast.makeText(this, "INCORRECT username  or password", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(this, "incorrect username  or password", Toast.LENGTH_SHORT).show();
                 }
                 t2.setText(count+" left");
 
